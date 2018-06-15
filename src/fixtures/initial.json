@@ -1,0 +1,80 @@
+[
+  {
+    "pk": 1,
+    "model": "task.taskstate",
+    "fields": {
+      "name": "eliminada",
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 2,
+    "model": "task.taskstate",
+    "fields": {
+      "name": "pausada",
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 3,
+    "model": "task.taskstate",
+    "fields": {
+      "name": "finalizada",
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 4,
+    "model": "task.taskstate",
+    "fields": {
+      "name": "inicializada",
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 5,
+    "model": "task.taskstate",
+    "fields": {
+      "name": "creada",
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 1,
+    "model": "task.duration",
+    "fields": {
+      "name": "corto",
+      "initial_range": 0,
+      "final_range": 30,
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 2,
+    "model": "task.duration",
+    "fields": {
+      "name": "medio",
+      "initial_range": 31,
+      "final_range": 60,
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  },
+  {
+    "pk": 3,
+    "model": "task.duration",
+    "fields": {
+      "name": "largo",
+      "initial_range": 61,
+      "final_range": 120,
+      "create_date": "2018-06-15",
+      "active": true
+    }
+  }
+]
